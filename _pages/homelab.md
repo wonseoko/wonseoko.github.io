@@ -1,8 +1,8 @@
 ---
 title: Homelab
 permalink: /homelab/
-layout: collection
-collection: homelab
+#layout: collection
+#collection: homelab
 #entries_layout: grid
 classes: wide
 ---
