@@ -187,6 +187,9 @@ kramdown:
 
 # Collections
 collections:
+  rpi:
+    output: true
+    permalink: /:collection/:path/
   docs:
     output: true
     permalink: /:collection/:path/
@@ -203,6 +206,17 @@ collections:
 
 # Defaults
 defaults:
+  # _rpi
+  - scope:
+      path: ""
+      type: rpi
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _posts
   - scope:
       path: ""
