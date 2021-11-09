@@ -6,6 +6,7 @@ permalink: /homelab/
 #entries_layout: grid
 classes: wide
 author_profile: false
+toc: true
 sidebar:
 #  title: "Homelab"
   nav: homelab
