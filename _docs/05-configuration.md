@@ -39,40 +39,40 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 {:.no_toc}
 
 <figure class="half">
-    <a href="{{ site.baseurl }}/assets/images/air-skin-archive-large.png"><img src="{{ site.baseurl }}/assets/images/air-skin-archive.png"></a>
-    <a href="{{ site.baseurl }}/assets/images/air-skin-post-large.png"><img src="{{ site.baseurl }}/assets/images/air-skin-post.png"></a>
+    <a href="{{ site.baseurl }}/_images/air-skin-archive-large.png"><img src="{{ site.baseurl }}/_images/air-skin-archive.png"></a>
+    <a href="{{ site.baseurl }}/_images/air-skin-post-large.png"><img src="{{ site.baseurl }}/_images/air-skin-post.png"></a>
     <figcaption>Calm and blue.</figcaption>
 </figure>
 
 #### Aqua skin: `aqua`
 
 <figure class="half">
-  <a href="{{ site.baseurl }}/assets/images/aqua-skin-archive-large.png"><img src="{{ site.baseurl }}/assets/images/aqua-skin-archive.png"></a>
-  <a href="{{ site.baseurl }}/assets/images/aqua-skin-post-large.png"><img src="{{ site.baseurl }}/assets/images/aqua-skin-post.png"></a>
+  <a href="{{ site.baseurl }}/_images/aqua-skin-archive-large.png"><img src="{{ site.baseurl }}/_images/aqua-skin-archive.png"></a>
+  <a href="{{ site.baseurl }}/_images/aqua-skin-post-large.png"><img src="{{ site.baseurl }}/_images/aqua-skin-post.png"></a>
   <figcaption>Just like water.</figcaption>
 </figure>
 
 #### Contrast skin: `contrast`
 
 <figure class="half">
-  <a href="{{ site.baseurl }}/assets/images/contrast-skin-archive-large.png"><img src="{{ site.baseurl }}/assets/images/contrast-skin-archive.png"></a>
-  <a href="{{ site.baseurl }}/assets/images/contrast-skin-post-large.png"><img src="{{ site.baseurl }}/assets/images/contrast-skin-post.png"></a>
+  <a href="{{ site.baseurl }}/_images/contrast-skin-archive-large.png"><img src="{{ site.baseurl }}/_images/contrast-skin-archive.png"></a>
+  <a href="{{ site.baseurl }}/_images/contrast-skin-post-large.png"><img src="{{ site.baseurl }}/_images/contrast-skin-post.png"></a>
   <figcaption>Retro feel with bold blue links and inverted footer.</figcaption>
 </figure>
 
 #### Dark skin: `dark`
 
 <figure class="half">
-  <a href="{{ site.baseurl }}/assets/images/dark-skin-archive-large.png"><img src="{{ site.baseurl }}/assets/images/dark-skin-archive.png"></a>
-  <a href="{{ site.baseurl }}/assets/images/dark-skin-post-large.png"><img src="{{ site.baseurl }}/assets/images/dark-skin-post.png"></a>
+  <a href="{{ site.baseurl }}/_images/dark-skin-archive-large.png"><img src="{{ site.baseurl }}/_images/dark-skin-archive.png"></a>
+  <a href="{{ site.baseurl }}/_images/dark-skin-post-large.png"><img src="{{ site.baseurl }}/_images/dark-skin-post.png"></a>
   <figcaption>Inverted palette, white text on a dark background.</figcaption>
 </figure>
 
 #### Dirt skin: `dirt`
 
 <figure class="half">
-  <a href="{{ site.baseurl }}/assets/images/dirt-skin-archive-large.png"><img src="{{ site.baseurl }}/assets/images/dirt-skin-archive.png"></a>
-  <a href="{{ site.baseurl }}/assets/images/dirt-skin-post-large.png"><img src="{{ site.baseurl }}/assets/images/dirt-skin-post.png"></a>
+  <a href="{{ site.baseurl }}/_images/dirt-skin-archive-large.png"><img src="{{ site.baseurl }}/_images/dirt-skin-archive.png"></a>
+  <a href="{{ site.baseurl }}/_images/dirt-skin-post-large.png"><img src="{{ site.baseurl }}/_images/dirt-skin-post.png"></a>
   <figcaption>Earthy tones.</figcaption>
 </figure>
 
@@ -81,32 +81,32 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 {:.no_toc}
 
 <figure class="half">
-  <a href="{{ site.baseurl }}/assets/images/mint-skin-archive-large.png"><img src="{{ site.baseurl }}/assets/images/mint-skin-archive.png"></a>
-  <a href="{{ site.baseurl }}/assets/images/mint-skin-post-large.png"><img src="{{ site.baseurl }}/assets/images/mint-skin-post.png"></a>
+  <a href="{{ site.baseurl }}/_images/mint-skin-archive-large.png"><img src="{{ site.baseurl }}/_images/mint-skin-archive.png"></a>
+  <a href="{{ site.baseurl }}/_images/mint-skin-post-large.png"><img src="{{ site.baseurl }}/_images/mint-skin-post.png"></a>
   <figcaption>Minty fresh green.</figcaption>
 </figure>
 
 #### Neon skin: `neon`
 
 <figure class="half">
-  <a href="{{ site.baseurl }}/assets/images/neon-skin-archive-large.png"><img src="{{ site.baseurl }}/assets/images/neon-skin-archive.png"></a>
-  <a href="{{ site.baseurl }}/assets/images/neon-skin-post-large.png"><img src="{{ site.baseurl }}/assets/images/neon-skin-post.png"></a>
+  <a href="{{ site.baseurl }}/_images/neon-skin-archive-large.png"><img src="{{ site.baseurl }}/_images/neon-skin-archive.png"></a>
+  <a href="{{ site.baseurl }}/_images/neon-skin-post-large.png"><img src="{{ site.baseurl }}/_images/neon-skin-post.png"></a>
   <figcaption>Inverted palette, white text on a dark background.</figcaption>
 </figure>
 
 #### Neon skin: `plum`
 
 <figure class="half">
-  <a href="{{ site.baseurl }}/assets/images/plum-skin-archive-large.png"><img src="{{ site.baseurl }}/assets/images/plum-skin-archive.png"></a>
-  <a href="{{ site.baseurl }}/assets/images/plum-skin-post-large.png"><img src="{{ site.baseurl }}/assets/images/plum-skin-post.png"></a>
+  <a href="{{ site.baseurl }}/_images/plum-skin-archive-large.png"><img src="{{ site.baseurl }}/_images/plum-skin-archive.png"></a>
+  <a href="{{ site.baseurl }}/_images/plum-skin-post-large.png"><img src="{{ site.baseurl }}/_images/plum-skin-post.png"></a>
   <figcaption>Purple reigns supreme.</figcaption>
 </figure>
 
 #### Sunrise skin: `sunrise`
 
 <figure class="half">
-  <a href="{{ site.baseurl }}/assets/images/sunrise-skin-archive-large.png"><img src="{{ site.baseurl }}/assets/images/sunrise-skin-archive.png"></a>
-  <a href="{{ site.baseurl }}/assets/images/sunrise-skin-post-large.png"><img src="{{ site.baseurl }}/assets/images/sunrise-skin-post.png"></a>
+  <a href="{{ site.baseurl }}/_images/sunrise-skin-archive-large.png"><img src="{{ site.baseurl }}/_images/sunrise-skin-archive.png"></a>
+  <a href="{{ site.baseurl }}/_images/sunrise-skin-post-large.png"><img src="{{ site.baseurl }}/_images/sunrise-skin-post.png"></a>
   <figcaption>Oranges and red.</figcaption>
 </figure>
 
@@ -211,34 +211,34 @@ Consult the [JavaScript documentation]({{ site.baseurl }}{% link _docs/17-javasc
 
 ### Site default teaser image
 
-To assign a fallback teaser image used in the "**Related Posts**" module, place a graphic in the `/assets/images/` directory and add the filename to `_config.yml` like so:
+To assign a fallback teaser image used in the "**Related Posts**" module, place a graphic in the `/_images/` directory and add the filename to `_config.yml` like so:
 
 ```yaml
-teaser: /assets/images/500x300.png
+teaser: /_images/500x300.png
 ```
 
 This image can be overridden at anytime by applying the following to a document's YAML Front Matter.
 
 ```yaml
 header:
-  teaser: /assets/images/my-awesome-post-teaser.jpg
+  teaser: /_images/my-awesome-post-teaser.jpg
 ```
 
 <figure>
-  <img src="{{ '/assets/images/mm-teaser-images-example.jpg' | relative_url }}" alt="teaser image example">
+  <img src="{{ '/_images/mm-teaser-images-example.jpg' | relative_url }}" alt="teaser image example">
   <figcaption>Example of teaser images found in the related posts module.</figcaption>
 </figure>
 
 ### Site masthead logo
 
-To insert a logo before the site title, place a graphic in the `/assets/images/` directory and add the filename to `_config.yml`:
+To insert a logo before the site title, place a graphic in the `/_images/` directory and add the filename to `_config.yml`:
 
 ```yaml
-logo: "/assets/images/88x88.png"
+logo: "/_images/88x88.png"
 ```
 
 <figure>
-  <img src="{{ '/assets/images/mm-masthead-logo.png' | relative_url }}" alt="masthead with logo and custom title">
+  <img src="{{ '/_images/mm-masthead-logo.png' | relative_url }}" alt="masthead with logo and custom title">
   <figcaption>Example of masthead with logo and custom title.</figcaption>
 </figure>
 
@@ -257,7 +257,7 @@ Enable breadcrumb links to help visitors better navigate deep sites. Because of 
 1. Use a category based permalink structure e.g. `permalink: /:categories/:title/`
 2. Manually create pages for each category or use a plugin like [jekyll-archives][jekyll-archives] to auto-generate them. If these pages don't exist breadcrumb links to them will be broken.
 
-![breadcrumb navigation example]({{ "/assets/images/mm-breadcrumbs-example.jpg" | relative_url }})
+![breadcrumb navigation example]({{ "/_images/mm-breadcrumbs-example.jpg" | relative_url }})
 
 ```yaml
 breadcrumbs: true  # disabled by default
@@ -269,7 +269,7 @@ Breadcrumb start link text and separator character can both be changed in the [U
 
 Enable post date snippets with `show_date: true` in YAML Front Matter.
 
-![post date example]({{ "/assets/images/mm-post-date-example.png" | relative_url }})
+![post date example]({{ "/_images/mm-post-date-example.png" | relative_url }})
 
 Instead of adding `show_date: true` to each post, apply as a default in `_config.yml` like so:
 
@@ -295,7 +295,7 @@ date_format: "%Y-%m-%d"
 
 Enable estimated reading time snippets with `read_time: true` in YAML Front Matter. `200` has been set as the default words per minute value --- which can be changed by adjusting `words_per_minute:` in `_config.yml`.
 
-![reading time example]({{ "/assets/images/mm-read-time-example.jpg" | relative_url }})
+![reading time example]({{ "/_images/mm-read-time-example.jpg" | relative_url }})
 
 Instead of adding `read_time: true` to each post, apply as a default in `_config.yml` like so:
 
@@ -567,7 +567,7 @@ To skip this moderation step simply set `moderation: false`.
 **ProTip:** Create a GitHub webhook that sends a `POST` request to the following payload URL `https://{your Staticman API URL}/v2/webhook` and triggers a "Pull request" event to delete Staticman branches on merge.
 {: .notice--info}
 
-![pull-request webhook]({{ "/assets/images/mm-staticman-pr-webhook.jpg" | relative_url }})
+![pull-request webhook]({{ "/_images/mm-staticman-pr-webhook.jpg" | relative_url }})
 
 ##### reCAPTCHA support (v2 only)
 
@@ -612,7 +612,7 @@ atom_feed:
 
 To enable site-wide search add `search: true` to your `_config.yml`.
 
-![masthead search example]({{ "/assets/images/masthead-search.gif" | relative_url }})
+![masthead search example]({{ "/_images/masthead-search.gif" | relative_url }})
 
 #### Lunr (default)
 
@@ -684,7 +684,7 @@ Add a Google search box to your site.
 
 2. Under **Look and feel** choose the "Results only" layout and a theme (*Minimalist* is a good choice to match the default look of the Minimal Mistakes).
 
-   ![Google Custom Search Engine layout]({{ '/assets/images/google-custom-search-engine-layout.png' | relative_url }})
+   ![Google Custom Search Engine layout]({{ '/_images/google-custom-search-engine-layout.png' | relative_url }})
 
 3. Select "Save & Get Code" and grab your search engine ID from the line that begins with `var cx = 'YOUR_SEARCH_ENGINE_ID'`.
 
@@ -813,26 +813,26 @@ facebook:
 
 ##### Open Graph default image
 
-For pages that don't have a `header.image` assigned in their YAML Front Matter, `site.og_image` will be used as a fallback. Use your logo, icon, avatar or something else that is meaningful. Just make sure it is place in the `/assets/images/` folder, a minimum size of 120px by 120px, and less than 1MB in file size.
+For pages that don't have a `header.image` assigned in their YAML Front Matter, `site.og_image` will be used as a fallback. Use your logo, icon, avatar or something else that is meaningful. Just make sure it is place in the `/_images/` folder, a minimum size of 120px by 120px, and less than 1MB in file size.
 
 ```yaml
-og_image: /assets/images/site-logo.png
+og_image: /_images/site-logo.png
 ```
 
 <figure>
-  <img src="{{ '/assets/images/mm-twitter-card-summary-image.jpg' | relative_url }}" alt="Twitter Card summary example">
+  <img src="{{ '/_images/mm-twitter-card-summary-image.jpg' | relative_url }}" alt="Twitter Card summary example">
   <figcaption>Example of a image placed in a Summary Card.</figcaption>
 </figure>
 
 Documents who have a `header.image` assigned in their YAML Front Matter will appear like this when shared on Twitter and Facebook.
 
 <figure>
-  <img src="{{ '/assets/images/mm-twitter-card-summary-large.jpg' | relative_url }}" alt="page shared on Twitter">
+  <img src="{{ '/_images/mm-twitter-card-summary-large.jpg' | relative_url }}" alt="page shared on Twitter">
   <figcaption>Shared page on Twitter with header image assigned.</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ '/assets/images/facebook-share-example.jpg' | relative_url }}" alt="page shared on Facebook">
+  <img src="{{ '/_images/facebook-share-example.jpg' | relative_url }}" alt="page shared on Facebook">
   <figcaption>Shared page on Facebook with header image assigned.</figcaption>
 </figure>
 
@@ -882,7 +882,7 @@ To use another provider not included with the theme set `provider: "custom"` the
 
 Used as the defaults for defining what appears in the author sidebar.
 
-![author sidebar example]({{ "/assets/images/mm-author-sidebar-example.jpg" | relative_url }})
+![author sidebar example]({{ "/_images/mm-author-sidebar-example.jpg" | relative_url }})
 
 **Note:** For sites with multiple authors these values can be overridden post by post with custom YAML Front Matter and a data file. For more information on how that works see below.
 {: .notice--info}
@@ -890,7 +890,7 @@ Used as the defaults for defining what appears in the author sidebar.
 ```yaml
 author:
   name     : "Your Name"
-  avatar   : "/assets/images/bio-photo.jpg"
+  avatar   : "/_images/bio-photo.jpg"
   bio      : "My awesome biography constrained to a sentence or two goes here."
   location : "Somewhere, USA"
 ```
@@ -906,7 +906,7 @@ Author links are all optional, include the ones you want visible under the `auth
 ```yaml
 author:
   name: "Your Name"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/_images/bio-photo.jpg"
   bio: "I am an **amazing** person." # Note: Markdown is allowed
   location: "Somewhere"
   links:

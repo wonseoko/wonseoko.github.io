@@ -35,7 +35,7 @@ main:
 
 # raspberry pi links
 rpi:
-  - title: 라즈베리파이
+  - title: "라즈베리파이"
     url: /rpi/
     children:
       - title: "why"

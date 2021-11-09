@@ -102,7 +102,7 @@ $ bundle install
 {: .notice--warning}
 
 <figure>
-  <img src="{{ '/assets/images/mm-bundle-install.gif' | relative_url }}" alt="bundle install in Terminal window">
+  <img src="{{ '/_images/mm-bundle-install.gif' | relative_url }}" alt="bundle install in Terminal window">
 </figure>
 
 Depending on what gems you already have installed you may have to run `bundle update` to clear up any dependency issues. Bundler is usually pretty good at letting you know what gems need updating or have issues installing, to further investigate.

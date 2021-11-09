@@ -56,4 +56,4 @@ classes: wide
 
 And then create portfolio content like [`_portfolio/foo-bar-website.md`](https://github.com/{{ site.repository }}/blob/master/docs/_portfolio/foo-bar-website.md), to end up with something like this.
 
-![portfolio collection example]({{ "/assets/images/mm-portfolio-collection-example.jpg" | relative_url }})
+![portfolio collection example]({{ "/_images/mm-portfolio-collection-example.jpg" | relative_url }})
