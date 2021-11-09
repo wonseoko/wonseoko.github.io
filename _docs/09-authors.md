@@ -17,7 +17,7 @@ To assign an author to a post or page that is different from the site author spe
 Billy Rick:
   name        : "Billy Rick"
   bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/_images/bio-photo-2.jpg"
+  avatar      : "/assets/images/bio-photo-2.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -32,7 +32,7 @@ Billy Rick:
 Cornelius Fiddlebone:
   name        : "Cornelius Fiddlebone"
   bio         : "I ordered what?"
-  avatar      : "/_images/bio-photo.jpg"
+  avatar      : "/assets/images/bio-photo.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

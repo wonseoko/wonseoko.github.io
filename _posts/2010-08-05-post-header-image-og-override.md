@@ -1,8 +1,8 @@
 ---
 title: "Post: Header Image with OpenGraph Override"
 header:
-  image: /_images/page-header-image.png
-  og_image: /_images/page-header-og-image.png
+  image: /assets/images/page-header-image.png
+  og_image: /assets/images/page-header-og-image.png
 categories:
   - Layout
   - Uncategorized
@@ -17,6 +17,6 @@ This post has a header image with an OpenGraph override.
 
 ```yaml
 header:
-  image: /_images/page-header-image.png
-  og_image: /_images/page-header-og-image.png
+  image: /assets/images/page-header-image.png
+  og_image: /assets/images/page-header-og-image.png
 ```

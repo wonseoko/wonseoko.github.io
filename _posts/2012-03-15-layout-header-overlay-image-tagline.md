@@ -2,7 +2,7 @@
 title: "Layout: Header Image Overlay with Custom Tagline"
 tagline: "This is a custom tagline content which overrides the *default* page excerpt."
 header:
-  overlay_image: /_images/unsplash-image-1.jpg
+  overlay_image: /assets/images/unsplash-image-1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories:
   - Layout
@@ -23,6 +23,6 @@ This post tests overlay header images with custom `page.tagline`.
 ```yaml
 tagline: "This is a custom tagline content which overrides the default page excerpt."
 header:
-  overlay_image: /_images/unsplash-image-1.jpg
+  overlay_image: /assets/images/unsplash-image-1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ```
