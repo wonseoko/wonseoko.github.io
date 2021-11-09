@@ -30,8 +30,8 @@ main:
     url: /k3s/
   - title: "Minecraft"
     url: /minecraft/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Posts"
+    url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Terms &amp; Privacy Policy"
