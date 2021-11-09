@@ -45,8 +45,10 @@ homelab:
     url: /homelab/
   - title: 현재
     children:
-      - title: "Hardware"
-      - url: /homelab/hardware/
+      - title: "하드웨어"
+        url: /homelab/hardware/
+      - title: "디자인 목표"
+        url: /homelab/design/
 
 # Raspberry Pi links
 rpi:
