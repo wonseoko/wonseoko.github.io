@@ -20,8 +20,10 @@ foo:
 
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+#  - title: "Quick-Start Guide"
+#    url: /docs/quick-start-guide/
+  - title: "Raspberry Pi"
+    url: /rpi/
   - title: "About"
     url: /about/
   - title: "Sample Posts"
@@ -31,6 +33,13 @@ main:
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
 
+# raspberry pi links
+rpi:
+  - title: 라즈베리파이
+    url: /rpi/
+    children:
+      - title: "why"
+      - url: /rpi/why/
 
 # documentation links
 docs:

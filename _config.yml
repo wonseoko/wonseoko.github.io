@@ -208,7 +208,7 @@ collections:
 defaults:
   # _rpi
   - scope:
-      path: ""
+      path: "_rpi"
       type: rpi
     values:
       layout: single
