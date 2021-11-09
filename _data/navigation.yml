@@ -28,6 +28,8 @@ main:
     url: /rpi/
   - title: "K3S"
     url: /k3s/
+  - title: "Minecraft"
+    url: /minecraft/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
@@ -60,6 +62,14 @@ k3s:
     children:
       - title: "why"
       - url: /k3s/why/
+
+# Minecraft links
+minecraft:
+  - title: "Minecraft"
+    url: /minecraft/
+    children:
+      - title: "why"
+      - url: /minecraft/why/
 
 # documentation links
 docs:
