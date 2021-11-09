@@ -44,8 +44,8 @@ homelab:
   - title: "Homelab"
     url: /homelab/
     children:
-      - title: "why"
-      - url: /homelab/why/
+      - title: "Hardware"
+      - url: /homelab/hardware/
 
 # Raspberry Pi links
 rpi:

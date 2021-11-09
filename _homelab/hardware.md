@@ -8,7 +8,7 @@ permalink: /homelab/hardware/
 toc: true
 ---
 
-다음은 현재 사용되고 있는 하드웨어 구성입니다.
+다음은 앞으로 사용 할 초기 하드웨어 구성입니다.
 
 - 라즈베리파이 4B 8GB * 4개
 - 삼성 PM991 128GB NVME SSD * 4개
