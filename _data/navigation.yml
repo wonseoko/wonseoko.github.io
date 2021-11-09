@@ -41,8 +41,7 @@ main:
 
 # Homelab links
 homelab:
-  - title: "Homelab"
-    url: /homelab/
+  - title: 사전준비
     children:
       - title: "Hardware"
       - url: /homelab/hardware/
