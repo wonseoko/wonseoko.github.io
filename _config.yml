@@ -13,7 +13,7 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 locale                   : "ko-KR"
 title                    : "Wonseok Oh"
 title_separator          : "-"
-subtitle                 : "A Jekyll theme"
+subtitle                 : "" #"A Jekyll theme"
 name                     : &name "Wonseok Oh" # &name is a YAML anchor which can be *referenced later
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://www.owonseok.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
