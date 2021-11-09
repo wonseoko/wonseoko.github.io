@@ -187,7 +187,13 @@ kramdown:
 
 # Collections
 collections:
+  homelab:
+    output: true
+    permalink: /:collection/:path/
   rpi:
+    output: true
+    permalink: /:collection/:path/
+  k3s:
     output: true
     permalink: /:collection/:path/
   docs:
@@ -206,10 +212,32 @@ collections:
 
 # Defaults
 defaults:
+  # _homelab
+  - scope:
+      path: "_homelab"
+      type: homelab
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _rpi
   - scope:
       path: "_rpi"
       type: rpi
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _k3s
+  - scope:
+      path: "_k3s"
+      type: k3s
     values:
       layout: single
       author_profile: true

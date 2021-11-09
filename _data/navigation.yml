@@ -22,8 +22,12 @@ foo:
 main:
 #  - title: "Quick-Start Guide"
 #    url: /docs/quick-start-guide/
+  - title: "Homelab"
+    url: /homelab/
   - title: "Raspberry Pi"
     url: /rpi/
+  - title: "K3S"
+    url: /k3s/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
@@ -33,13 +37,29 @@ main:
   - title: "About"
     url: /about/
 
-# raspberry pi links
+# Homelab links
+homelab:
+  - title: "Homelab"
+    url: /homelab/
+    children:
+      - title: "why"
+      - url: /homelab/why/
+
+# Raspberry Pi links
 rpi:
-  - title: "라즈베리파이"
+  - title: "Raspberry Pi"
     url: /rpi/
     children:
       - title: "why"
       - url: /rpi/why/
+
+# K3S links
+k3s:
+  - title: "K3S"
+    url: /k3s/
+    children:
+      - title: "why"
+      - url: /k3s/why/
 
 # documentation links
 docs:
