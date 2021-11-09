@@ -1,10 +1,7 @@
 ---
 title: "하드웨어"
 permalink: /homelab/hardware/
-#excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
-#last_modified_at: 2021-06-07T08:48:05-04:00
-#redirect_from:
-#  - /theme-setup/
+last_modified_at: 2021-11-09T17:36:40+09:00
 toc: true
 ---
 

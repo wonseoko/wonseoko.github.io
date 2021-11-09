@@ -1,15 +1,8 @@
 ---
 title: Homelab
 permalink: /homelab/
-#layout: collection
-#collection: homelab
-#entries_layout: grid
-#classes: wide
-author_profile: false
+last_modified_at: 2021-11-09T17:36:12+09:00
 toc: true
-sidebar:
-#  title: "Homelab"
-  nav: homelab
 ---
 
 한달 전 쯤 문득 초딩 아들들이 내게 와 묻는다.. `아빠 마인크래프트 자바 버전 하려면 어떻게 해요?`
