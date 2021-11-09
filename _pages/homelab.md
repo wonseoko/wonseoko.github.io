@@ -5,6 +5,9 @@ permalink: /homelab/
 #collection: homelab
 #entries_layout: grid
 classes: wide
+sidebar:
+  title: "Homelab"
+  nav: homelab
 ---
 
 홈랩에 대한 내용을 다루는 페이지 입니다.
