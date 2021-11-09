@@ -223,6 +223,8 @@ defaults:
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: "homelab"
   # _rpi
   - scope:
       path: "_rpi"
@@ -234,6 +236,8 @@ defaults:
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: "rpi"
   # _k3s
   - scope:
       path: "_k3s"
@@ -245,6 +249,21 @@ defaults:
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: "k3s"
+  # _minecraft
+  - scope:
+      path: "_minecraft"
+      type: minecraft
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "minecraft"
   # _posts
   - scope:
       path: ""
