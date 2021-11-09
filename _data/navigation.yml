@@ -24,14 +24,14 @@ main:
 #    url: /docs/quick-start-guide/
   - title: "Raspberry Pi"
     url: /rpi/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Terms &amp; Privacy Policy"
+  #   url: /terms/
   - title: "About"
     url: /about/
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
 
 # raspberry pi links
 rpi:
