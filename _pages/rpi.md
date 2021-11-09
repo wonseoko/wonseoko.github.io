@@ -7,7 +7,6 @@ entries_layout: grid
 classes: wide
 ---
 
-## 라즈베리파이
 라즈베리파이에 대한 내용을 다루는 페이지 입니다.
 
 <!-- {: .note .info}
