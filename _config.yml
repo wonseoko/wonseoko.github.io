@@ -218,7 +218,6 @@ defaults:
       type: homelab
     values:
       layout: single
-      author_profile: true
       read_time: true
       comments: true
       share: true
@@ -229,7 +228,6 @@ defaults:
       type: rpi
     values:
       layout: single
-      author_profile: true
       read_time: true
       comments: true
       share: true
@@ -240,7 +238,6 @@ defaults:
       type: k3s
     values:
       layout: single
-      author_profile: true
       read_time: true
       comments: true
       share: true
