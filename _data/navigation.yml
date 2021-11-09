@@ -22,7 +22,7 @@ foo:
 main:
 #  - title: "Quick-Start Guide"
 #    url: /docs/quick-start-guide/
-  - title: "Raspberry Pi"
+  - title: "라즈베리파이"
     url: /rpi/
   # - title: "Sample Posts"
   #   url: /year-archive/
