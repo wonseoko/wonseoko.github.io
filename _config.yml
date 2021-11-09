@@ -223,7 +223,7 @@ defaults:
       author_profile: true
   # _docs
   - scope:
-      path: "_docs/docs"
+      path: ""
       type: docs
     values:
       layout: single
