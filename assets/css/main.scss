@@ -1,0 +1,43 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+//
+// 리모트 테마 또는 Gem 테마를 사용하는 경우
+// 부분적으로 _sass 내의 파일을 수정할 수가 없다고 함.
+// 
+// 때문에 assets/css/main.scss 파일에서 재정의를 통해 수정을 한다고 함.
+//
+
+// right sidebar 넓이 수정
+$right-sidebar-width-narrow: 100px !default;    // default 200px
+$right-sidebar-width: 200px !default;           // default 300px
+$right-sidebar-width-wide: 250px !default;      // default 400px
+
+// font 크기 수정
+html {
+    /* apply a natural box layout model to all elements */
+    box-sizing: border-box;
+    background-color: $background-color;
+    font-size: 16px;                    // Default 16px;
+  
+    @include breakpoint($medium) {
+      font-size: 16px;                  // Default 18px;
+    }
+  
+    @include breakpoint($large) {
+      font-size: 16px;                  // Default 20px;
+    }
+  
+    @include breakpoint($x-large) {
+      font-size: 16px;                  // Default 22px;
+    }
+  
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
