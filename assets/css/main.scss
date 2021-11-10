@@ -21,9 +21,6 @@ $right-sidebar-width-wide: 250px !default;      // default 400px
 
 // font 크기 수정
 html {
-    /* apply a natural box layout model to all elements */
-    box-sizing: border-box;
-    background-color: $background-color;
     font-size: 16px;                    // Default 16px;
   
     @include breakpoint($medium) {
@@ -38,6 +35,4 @@ html {
       font-size: 20px;                  // Default 22px;
     }
   
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
   }
