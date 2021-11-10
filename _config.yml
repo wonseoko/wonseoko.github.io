@@ -89,10 +89,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "UA-2011187-3" # Replace this with your ID, or delete
-    anonymize_ip         : true
+    tracking_id          : "G-SMRMD4DE6Y" # Replace this with your ID, or delete
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
@@ -100,7 +100,7 @@ author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/bluetigero.jpg"
   bio              : "Just another *boring*, *tattooed*, *time traveling*, *designer*."
-  location         : "Suwon-si, Republic of Korea"
+  location         : "Republic of Korea"
   links:
 #    - label: "Made Mistakes"
 #      icon: "fas fa-fw fa-link"
