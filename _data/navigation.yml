@@ -24,7 +24,7 @@ main:
 #    url: /docs/quick-start-guide/
   - title: "Posts"
     url: /year-archive/
-  - title: "rpi4cluster"
+  - title: "RPi4Cluster"
     url: /rpi4cluster/
   # - title: "Games"
   #   url: /games/
