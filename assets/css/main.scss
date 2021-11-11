@@ -4,9 +4,6 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-
 //
 // 리모트 테마 또는 Gem 테마를 사용하는 경우
 // 부분적으로 _sass 내의 파일을 수정할 수가 없다고 함.
@@ -23,6 +20,34 @@ $medium-wide: 992px;      // default 900px
 $large: 1200px;           // default 1024px
 $x-large: 1400px;         // default 1280px
 $max-width: 1600px;       // default $x-large
+
+//
+// Grid
+//
+// $right-sidebar-width-narrow: 100px !default;    // default 200px
+// $right-sidebar-width: 200px !default;           // default 300px
+// $right-sidebar-width-wide: 250px !default;      // default 400px
+
+// font 크기 수정
+// html {
+//     font-size: 14px;                    // Default 16px;
+  
+//     @include breakpoint($medium) {
+//       font-size: 16px;                  // Default 18px;
+//     }
+  
+//     @include breakpoint($large) {
+//       font-size: 18px;                  // Default 20px;
+//     }
+  
+//     @include breakpoint($x-large) {
+//       font-size: 20px;                  // Default 22px;
+//     }
+  
+//   }
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
 
 //
 // change sidebar breakpoint
@@ -72,28 +97,4 @@ $max-width: 1600px;       // default $x-large
     margin-right: 0;
   }
 }
-   
-//
-// Grid
-//
-// $right-sidebar-width-narrow: 100px !default;    // default 200px
-// $right-sidebar-width: 200px !default;           // default 300px
-// $right-sidebar-width-wide: 250px !default;      // default 400px
 
-// font 크기 수정
-// html {
-//     font-size: 14px;                    // Default 16px;
-  
-//     @include breakpoint($medium) {
-//       font-size: 16px;                  // Default 18px;
-//     }
-  
-//     @include breakpoint($large) {
-//       font-size: 18px;                  // Default 20px;
-//     }
-  
-//     @include breakpoint($x-large) {
-//       font-size: 20px;                  // Default 22px;
-//     }
-  
-//   }
