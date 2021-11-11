@@ -4,6 +4,9 @@
 
 @charset "utf-8";
 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
 //
 // 리모트 테마 또는 Gem 테마를 사용하는 경우
 // 부분적으로 _sass 내의 파일을 수정할 수가 없다고 함.
@@ -82,6 +85,3 @@ $max-width: 1600px;       // default $x-large
 //     }
   
 //   }
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
