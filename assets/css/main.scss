@@ -14,12 +14,12 @@
 //
 // Breakpoints
 //   
-$small: 600px;
+$small: 576px;            // default 600px
 $medium: 768px;
-$medium-wide: 900px;
-$large: 1024px;
-$x-large: 1400px;        // default 1280px
-$max-width: 1600px;      // default $x-large
+$medium-wide: 992px;      // default 900px
+$large: 1200px;           // default 1024px
+$x-large: 1400px;         // default 1280px
+$max-width: 1600px;       // default $x-large
    
 //
 // Grid
