@@ -224,11 +224,11 @@ defaults:
       share: true
       related: true
       sidebar:
-        nav: "rpi4cluster"
-      tagline: "라즈베리4와 K3S을 이용해 클러스터를 구성한 경험담을 공유합니다."
+        nav: "rpi4cluster"      
       header:
-        overlay_image: https://user-images.githubusercontent.com/1581651/141248362-435c27c8-6f6c-452e-983c-fdfdc419a1ee.png
-        overlay_filter: rgba(255, 255, 255, 0.5)
+        overlay_image: https://unsplash.com/photos/c3YpscwJb04
+        caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+      tagline: "라즈베리4와 K3S을 이용해 클러스터를 구성한 경험담을 공유합니다."
   # _posts
   - scope:
       path: ""
