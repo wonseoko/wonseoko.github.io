@@ -7,5 +7,5 @@ excerpt: "클러스터 구성을 어떻게 할지, 몇 개의 노드를 구성�
 ---
 
 {% if page.excerpt and !page.tagline %}
-{% assign page.tagline = page.excerpt %}
+{% assign tagline = page.excerpt %}
 {% endif %}
