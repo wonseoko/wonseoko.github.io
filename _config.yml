@@ -24,7 +24,7 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 #breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
-date_format              : "%Y-%m-%dd, %H:%M %%"
+date_format              : "%Y년 %m월 %d일, %H:%M"
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
   disqus:
