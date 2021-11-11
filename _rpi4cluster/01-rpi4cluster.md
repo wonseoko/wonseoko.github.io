@@ -1,6 +1,7 @@
 ---
 title: 라즈베리파이 4 클러스터
 permalink: /rpi4cluster/
+date: 2021-11-07T17:25:20+09:00
 last_modified_at: 2021-11-09T17:36:12+09:00
 toc: true
 toc_sticky: true
