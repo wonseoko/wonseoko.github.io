@@ -60,6 +60,18 @@ $max-width: 1600px;       // default $x-large
     margin-right: -1 * $right-sidebar-width;
   }
 }
+
+.splash .sidebar__right {
+  @include breakpoint($medium-wide) {
+    position: relative;
+    float: right;
+    margin-right: 0;
+  }
+
+  @include breakpoint($x-large) {
+    margin-right: 0;
+  }
+}
    
 //
 // Grid
