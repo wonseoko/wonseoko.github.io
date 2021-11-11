@@ -22,18 +22,12 @@ foo:
 main:
 #  - title: "Quick-Start Guide"
 #    url: /docs/quick-start-guide/
-  - title: "rpi4cluster"
-    url: /rpi4cluster/
-  # - title: "Raspberry Pi"
-  #   url: /rpi/
-  # - title: "K3S"
-  #   url: /k3s/
-  - title: "Games"
-    children:
-      - title: "Minecraft"
-        url: /minecraft/
   - title: "Posts"
     url: /year-archive/
+  - title: "rpi4cluster"
+    url: /rpi4cluster/
+  # - title: "Games"
+  #   url: /games/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Terms &amp; Privacy Policy"
@@ -47,10 +41,10 @@ rpi4cluster:
     url: /rpi4cluster/
   - title: "현재 구성"
     children:
-      - title: "하드웨어"
-        url: /rpi4cluster/hardware/
       - title: "디자인 목표"
         url: /rpi4cluster/design/
+      - title: "하드웨어"
+        url: /rpi4cluster/hardware/
 
 # documentation links
 docs:
