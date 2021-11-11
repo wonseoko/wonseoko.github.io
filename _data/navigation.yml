@@ -38,6 +38,7 @@ main:
 # rpi4cluster links
 rpi4cluster:
   - title: 라즈베리파이 4 클러스터
+    image: "https://user-images.githubusercontent.com/1581651/141248362-435c27c8-6f6c-452e-983c-fdfdc419a1ee.png"
     url: /rpi4cluster/
   - title: "현재 구성"
     children:
