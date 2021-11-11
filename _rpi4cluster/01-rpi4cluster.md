@@ -4,8 +4,10 @@ permalink: /rpi4cluster/
 last_modified_at: 2021-11-09T17:36:12+09:00
 toc: true
 toc_sticky: true
+tagline: "라즈베리4와 K3S을 이용해 클러스터를 구성한 경험담을 공유합니다."
 header:
-  image: https://user-images.githubusercontent.com/1581651/141248362-435c27c8-6f6c-452e-983c-fdfdc419a1ee.png
+  overlay_image: https://user-images.githubusercontent.com/1581651/141248362-435c27c8-6f6c-452e-983c-fdfdc419a1ee.png
+  overlay_filter: rgba(255, 255, 255, 0.5)
 ---
 
 한달 전 쯤 문득 초딩 아들들이 내게 와 묻는다.. 
