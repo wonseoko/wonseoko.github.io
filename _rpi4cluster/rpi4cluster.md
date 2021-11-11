@@ -1,6 +1,6 @@
 ---
-title: Homelab
-permalink: /homelab/
+title: 라즈베리파이 4 클러스터
+permalink: /rpi4cluster/
 last_modified_at: 2021-11-09T17:36:12+09:00
 toc: true
 toc_sticky: true

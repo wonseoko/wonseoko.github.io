@@ -11,10 +11,10 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Wonseok Oh"
+title                    : "O Wonseok"
 title_separator          : "-"
 subtitle                 : "" #"A Jekyll theme"
-name                     : &name "Wonseok Oh" # &name is a YAML anchor which can be *referenced later
+name                     : &name "O Wonseok" # &name is a YAML anchor which can be *referenced later
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://www.owonseok.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
@@ -187,15 +187,15 @@ kramdown:
 
 # Collections
 collections:
-  homelab:
+  rpi4cluster:
     output: true
     permalink: /:collection/:path/
-  rpi:
-    output: true
-    permalink: /:collection/:path/
-  k3s:
-    output: true
-    permalink: /:collection/:path/
+  # rpi:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # k3s:
+  #   output: true
+  #   permalink: /:collection/:path/
   docs:
     output: true
     permalink: /:collection/:path/
@@ -212,10 +212,10 @@ collections:
 
 # Defaults
 defaults:
-  # _homelab
+  # _rpi4cluster
   - scope:
-      path: "_homelab"
-      type: homelab
+      path: ""
+      type: rpi4cluster
     values:
       layout: single
       author_profile: false
@@ -224,46 +224,7 @@ defaults:
       share: true
       related: true
       sidebar:
-        nav: "homelab"
-  # _rpi
-  - scope:
-      path: "_rpi"
-      type: rpi
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      sidebar:
-        nav: "rpi"
-  # _k3s
-  - scope:
-      path: "_k3s"
-      type: k3s
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      sidebar:
-        nav: "k3s"
-  # _minecraft
-  - scope:
-      path: "_minecraft"
-      type: minecraft
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      sidebar:
-        nav: "minecraft"
+        nav: "rpi4cluster"
   # _posts
   - scope:
       path: ""

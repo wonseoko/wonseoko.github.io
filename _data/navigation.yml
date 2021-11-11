@@ -22,14 +22,16 @@ foo:
 main:
 #  - title: "Quick-Start Guide"
 #    url: /docs/quick-start-guide/
-  - title: "Homelab"
-    url: /homelab/
-  - title: "Raspberry Pi"
-    url: /rpi/
-  - title: "K3S"
-    url: /k3s/
-  - title: "Minecraft"
-    url: /minecraft/
+  - title: "rpi4cluster"
+    url: /rpi4cluster/
+  # - title: "Raspberry Pi"
+  #   url: /rpi/
+  # - title: "K3S"
+  #   url: /k3s/
+  - title: "Games"
+    children:
+      - title: "Minecraft"
+        url: /minecraft/
   - title: "Posts"
     url: /year-archive/
   # - title: "Sample Collections"
@@ -39,40 +41,16 @@ main:
   - title: "About"
     url: /about/
 
-# Homelab links
-homelab:
-  - title: Homelab
-    url: /homelab/
-  - title: 현재
+# rpi4cluster links
+rpi4cluster:
+  - title: 라즈베리파이 4 클러스터
+    url: /rpi4cluster/
+  - title: "현재 구성"
     children:
       - title: "하드웨어"
-        url: /homelab/hardware/
+        url: /rpi4cluster/hardware/
       - title: "디자인 목표"
-        url: /homelab/design/
-
-# Raspberry Pi links
-rpi:
-  - title: "Raspberry Pi"
-    url: /rpi/
-    children:
-      - title: "why"
-      - url: /rpi/why/
-
-# K3S links
-k3s:
-  - title: "K3S"
-    url: /k3s/
-    children:
-      - title: "why"
-      - url: /k3s/why/
-
-# Minecraft links
-minecraft:
-  - title: "Minecraft"
-    url: /minecraft/
-    children:
-      - title: "why"
-      - url: /minecraft/why/
+        url: /rpi4cluster/design/
 
 # documentation links
 docs:

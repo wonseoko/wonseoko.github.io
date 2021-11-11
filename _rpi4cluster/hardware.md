@@ -1,6 +1,6 @@
 ---
 title: "하드웨어"
-permalink: /homelab/hardware/
+permalink: /rpi4cluster/hardware/
 last_modified_at: 2021-11-09T17:36:40+09:00
 toc: true
 ---
