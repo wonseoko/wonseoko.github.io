@@ -3,6 +3,7 @@ title: "하드웨어"
 permalink: /rpi4cluster/hardware/
 last_modified_at: 2021-11-09T17:36:40+09:00
 toc: true
+excerpt: "현재 구성시킨 클러스터의 하드웨어 구성에 대해 설명합니다."
 ---
 
 다음은 앞으로 사용 할 초기 하드웨어 구성입니다.
