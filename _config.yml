@@ -230,7 +230,8 @@ defaults:
         overlay_image: https://user-images.githubusercontent.com/1581651/141253198-b0c6c5b6-ac7d-494e-afd1-965ba912d541.jpg
         overlay_filter: 0.5
         caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-#      tagline: "라즈베리4와 K3S을 이용해 클러스터를 구성한 경험담을 공유합니다."
+        show_overlay_excerpt: true
+      tagline: "라즈베리4와 K3S을 이용해 클러스터를 구성한 경험담을 공유합니다."
   # _posts
   - scope:
       path: ""
