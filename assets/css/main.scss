@@ -20,6 +20,43 @@ $medium-wide: 992px;      // default 900px
 $large: 1200px;           // default 1024px
 $x-large: 1400px;         // default 1280px
 $max-width: 1600px;       // default $x-large
+
+//
+// change sidebar breakpoint
+//
+.sidebar__right {
+  margin-bottom: 1em;
+
+  @include breakpoint($medium-wide) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: $right-sidebar-width-narrow;
+    margin-right: -1 * $right-sidebar-width-narrow;
+    padding-left: 1em;
+    z-index: 10;
+
+    &.sticky {
+      @include clearfix();
+      position: -webkit-sticky;
+      position: sticky;
+      top: 2em;
+      float: right;
+
+      .toc {
+        .toc__menu {
+          overflow-y: auto;
+          max-height: calc(100vh - 7em);
+        }
+      }
+    }
+  }
+
+  @include breakpoint($x-large) {
+    width: $right-sidebar-width;
+    margin-right: -1 * $right-sidebar-width;
+  }
+}
    
 //
 // Grid
