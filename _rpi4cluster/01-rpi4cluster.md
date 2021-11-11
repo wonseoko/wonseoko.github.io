@@ -4,6 +4,8 @@ permalink: /rpi4cluster/
 last_modified_at: 2021-11-09T17:36:12+09:00
 toc: true
 toc_sticky: true
+header:
+  image: https://user-images.githubusercontent.com/1581651/141248362-435c27c8-6f6c-452e-983c-fdfdc419a1ee.png
 ---
 
 한달 전 쯤 문득 초딩 아들들이 내게 와 묻는다.. 
