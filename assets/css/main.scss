@@ -13,7 +13,7 @@
 //
 // Breakpoints 기준값 재정의 -  import 이전에 정의해야 함.
 //
-// 원본위치: [theme-root]/_sass/minimal-mistakes/_variables.scss
+// 원본위치: [remote-theme]/_sass/minimal-mistakes/_variables.scss
 //   
 $small: 576px;            // default 600px
 $medium: 720px;           // default 768px
@@ -28,7 +28,7 @@ $max-width: 1600px;       // default $x-large
 //
 // font 크기 재정의 - import 이후 정의해야 함.
 //
-// 원본위치: [theme-root]/_sass/minimal-mistakes/_reset.scss
+// 원본위치: [remote-theme]/_sass/minimal-mistakes/_reset.scss
 //
 html {
   font-size: 16px;                    // Default 16px;
@@ -45,4 +45,27 @@ html {
     font-size: 20px;                  // Default 22px;
   }
 
+}
+
+
+//
+// link underline 제거
+//
+// 원본위치: [remote-theme]/_sass/minimal-mistakes/_basee.scss
+//
+a {
+  text-decoration: none;                // 추가된 코드입니다.
+
+  &:focus {
+    @extend %tab-focus;
+  }
+
+  &:visited {
+    color: $link-color-visited;
+  }
+
+  &:hover {
+    color: $link-color-hover;
+    outline: 0;
+  }
 }
