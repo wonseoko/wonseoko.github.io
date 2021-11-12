@@ -100,7 +100,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/bluetigero.jpg"
-  bio              : "새로운 기술과 게임을 좋아하는.., 흰머리가 덥수룩하고 게을러서 백발코더 랍니다."
+  bio              : "새로운 기술과 게임을 좋아합니다. 흰머리가 덥수룩하고 게을러서 백발코더 랍니다."
   location         : "Republic of Korea"
   links:
 #    - label: "Made Mistakes"
