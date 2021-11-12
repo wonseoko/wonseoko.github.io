@@ -15,7 +15,7 @@ last_modified_at: 2021-11-12T15:29:36+09:00
 
 이 포스트는 현재 이 사이트에 적용되어 있는 [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/){: target=_blank} 테마에 대해 이야기 합니다.
 
-## Github Pages 동작 방식
+### Github Pages 동작 방식
 [Github Pages](https://pages.github.com/){: target=_blank}는 이전에도 언급했듯이 [Jekyll](https://jekyllrb-ko.github.io/){: target=_blank}을 이용하여 사이트를 `자동 생성`한다고 하였습니다. 
 
 > 자동 생성의 의미는 사용자가 git 저장소에 푸시를 하면 자동으로 git에서 Jekyll 빌드를 수행하여 최종 결과물을 배포함을 의미합니다.
