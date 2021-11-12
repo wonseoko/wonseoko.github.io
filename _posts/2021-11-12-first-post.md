@@ -10,8 +10,8 @@ tags:
   - Github Pages
   - Jekyll
   - Markdown
-date: 2021-11-12T12:03:47+09:00
-last_modified_at: 2021-11-12T15:29:36+09:00
+date: 2021-11-12 12:03:47 +0900
+last_modified_at: 2021-11-12 18:25:48 +0900
 ---
 
 블로그 운영을 위해 Github Pages를 선택한 이유와 Git, Markdown을 이용한 응용법에 대한 생각입니다.

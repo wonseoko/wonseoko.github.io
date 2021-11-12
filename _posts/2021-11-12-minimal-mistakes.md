@@ -9,8 +9,9 @@ categories:
 tags:
   - Jekyll Theme
   - Minimal Mistakes
-date: 2021-11-12T12:03:47+09:00
-last_modified_at: 2021-11-12T15:29:36+09:00
+date: 2021-11-12 12:03:47 +0900
+last_modified_at: 2021-11-12 15:29:36 +0900
+
 ---
 
 이 포스트는 현재 이 사이트에 적용되어 있는 [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/){: target=_blank} 테마에 대해 이야기 합니다.
