@@ -7,7 +7,7 @@ header:
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/842ofHC6MaI)"
 categories:
-  - Github Pages
+  - Blog
 tags:
   - Github Pages
   - Jekyll
