@@ -1,7 +1,5 @@
 ---
 title: "Github Pages 개설"
-date: 2021-11-12T12:03:47+09:00
-last_modified_at: 2021-11-12T15:12:58+09:00
 header:
   overlay_image: /assets/images/unsplash/github-842ofHC6MaI.jpg
   overlay_filter: 0.5
@@ -12,12 +10,11 @@ tags:
   - Github Pages
   - Jekyll
   - Markdown
-excerpt: "Github Pages를 선택한 이유와 Git, Markdown을 이용한 응용법에 대한 생각을 정리하였습니다."
+date: 2021-11-12T12:03:47+09:00
+last_modified_at: 2021-11-12T15:29:36+09:00
 ---
 
-새롭게 블로그 운영을 위해 Github Pages를 기반으로 하는 정적 사이트를 만들었습니다.
-
-이 포스트는 왜 Github Pages를 선택하게 되었는지에 대한 생각입니다.
+이 포스트는 블로그 운영을 위해 Github Pages를 선택한 이유와 Git, Markdown을 이용한 응용법에 대한 생각입니다.
 
 ## 어떻게 데이터를 유지할 수 있을까?
 
