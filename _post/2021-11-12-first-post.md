@@ -1,6 +1,6 @@
 ---
 title: "Github Pages 개설"
-#date: 2021-11-12T12:03:47+09:00
+date: 2021-11-12T12:03:47+09:00
 last_modified_at: 2021-11-12T12:03:47+09:00
 header:
   overlay_image: /assets/images/unsplash/github-yancy-min.jpg
