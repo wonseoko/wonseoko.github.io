@@ -27,12 +27,13 @@ minimal-mistakes 에서 제공하는 예제 사이트를 기반으로 사이트 
 
 원인을 찾아보려 하지만 Github Pages 빌드로그에는 아무것도 표시되지 않고 메뉴얼만 참고하라고 나옴. ㅠㅠ
 
-### 로컬에서 Jekyll 빌드
+### 로컬에 Jekyll 설치
 Ruby 설치, Jekyll 및 관련 Gem 설치후 i18n 에러 발생
 직접 Jekyll Build가 불가능 해서 bundle exec jekyll build로 수행.
 
+### 로컬에서 빌드 후 에러확인
 다음과 같은 에러 메시지 획득!!
-```
+```sh
   Liquid Exception: Could not find post "2010-09-09-post-gallery" in tag 'post_url'. Make sure the post exists and the name is correct. in D:/_git_/owonseok.github.io/_docs/14-helpers.md
              ERROR: YOUR SITE COULD NOT BE BUILT:
                     ------------------------------------
@@ -42,11 +43,12 @@ Ruby 설치, Jekyll 및 관련 Gem 설치후 i18n 에러 발생
 ### 결론
 결국 문서내에서 사용하는 Liquid Template의 참조 링크가 빌드시 에러로 출력되었으나, Github Pages 내에서 보고되지 않아 로컬 빌드에서 에러 메시지를 참고하여 해결함.
 
-단, 다음과 같은 해당 구문을 주석처리 하여도 빌드시 참조하는 버그가 있음을 확인.
-
-> 아래 내용중 <% ... %>로 표시한 부분의 원 표현식은 {\% ... \%} 에 해당 합니다.
-
+> 단, 다음 구문을 주석처리 하여도 빌드시 참조하는 버그가 있음을 확인.
 ```
-**More Gallery Goodness:** A few more examples and [source code](https://github.com/{{ site.repository }}/blob/master/docs/\_posts/2010-09-09-post-gallery.md) can be seen in [this sample gallery post]({{ "" | relative_url }}<% post_url 2010-09-09-post-gallery %>).
-{: .notice--info}
+{% raw %}{% post_url 2010-09-09-post-gallery %}{% endraw %}
+```
+
+> 이를 임시적으로 인식하지 못하도록 하기 다음과 같은 식으로 교체함.
+```
+<% post_url 2010-09-09-post-gallery %>
 ```
