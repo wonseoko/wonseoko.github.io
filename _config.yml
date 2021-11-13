@@ -159,6 +159,8 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - x-pages
+  - x-posts
 keep_files:
   - .git
   - .svn
