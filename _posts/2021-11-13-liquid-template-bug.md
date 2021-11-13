@@ -1,7 +1,7 @@
 ---
 title: "Jekyll build시 발생되는 Liquid Template 버그"
 header:
-  overlay_image: /assets/images/owonseok/unknown-failure-of-github-pages.png
+  overlay_image: /assets/images/owonseok/unknown-build-failure-of-github-pages.png
   overlay_filter: 0.5
   caption: "Photo credit: O Wonseok"
 categories:
@@ -32,7 +32,7 @@ Ruby 설치, Jekyll 및 관련 Gem 설치후 i18n 에러 발생
 직접 Jekyll Build가 불가능 해서 bundle exec jekyll build로 수행.
 
 다음과 같은 에러 메시지 획득!!
-```sh
+```
   Liquid Exception: Could not find post "2010-09-09-post-gallery" in tag 'post_url'. Make sure the post exists and the name is correct. in D:/_git_/owonseok.github.io/_docs/14-helpers.md
              ERROR: YOUR SITE COULD NOT BE BUILT:
                     ------------------------------------
@@ -44,7 +44,9 @@ Ruby 설치, Jekyll 및 관련 Gem 설치후 i18n 에러 발생
 
 단, 다음과 같은 해당 구문을 주석처리 하여도 빌드시 참조하는 버그가 있음을 확인.
 
-> 아래 내용중 <% ... %>로 굵게 표시한 부분의 원 표현식은 {\% ... \%} 에 해당 합니다.
+> 아래 내용중 <% ... %>로 표시한 부분의 원 표현식은 {\% ... \%} 에 해당 합니다.
 
-> **More Gallery Goodness:** A few more examples and [source code](https://github.com/{{ site.repository }}/blob/master/docs/\_posts/2010-09-09-post-gallery.md) can be seen in [this sample gallery post]({{ "" | relative_url }}**<% post_url 2010-09-09-post-gallery %>**).
+```
+**More Gallery Goodness:** A few more examples and [source code](https://github.com/{{ site.repository }}/blob/master/docs/\_posts/2010-09-09-post-gallery.md) can be seen in [this sample gallery post]({{ "" | relative_url }}<% post_url 2010-09-09-post-gallery %>).
 {: .notice--info}
+```
