@@ -1,6 +1,7 @@
 ---
 title: "Jekyll Theme: minimal-mistakes"
 header:
+  teaser: /assets/images/unsplash/mistake-52jRtc2S_VE.jpg
   overlay_image: /assets/images/unsplash/mistake-52jRtc2S_VE.jpg
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/52jRtc2S_VE)"

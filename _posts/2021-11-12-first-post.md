@@ -1,6 +1,7 @@
 ---
 title: "Github Pages 개설"
 header:
+  teaser: /assets/images/unsplash/github-842ofHC6MaI.jpg
   overlay_image: /assets/images/unsplash/github-842ofHC6MaI.jpg
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/842ofHC6MaI)"

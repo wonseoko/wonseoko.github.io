@@ -1,6 +1,7 @@
 ---
 title: "Jekyll build시 발생되는 Liquid Template 버그"
 header:
+  teaser: /assets/images/owonseok/unknown-build-failure-of-github-pages.png
   overlay_image: /assets/images/owonseok/unknown-build-failure-of-github-pages.png
   overlay_filter: 0.5
   caption: "Photo credit: O Wonseok"

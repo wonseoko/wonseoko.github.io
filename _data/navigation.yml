@@ -26,8 +26,8 @@ main:
     url: /year-archive/
   - title: "RPi4Cluster"
     url: /rpi4cluster/
-  # - title: "Games"
-  #   url: /games/
+  - title: "OWAF"
+    url: /owaf/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Terms &amp; Privacy Policy"
@@ -45,6 +45,15 @@ rpi4cluster:
         url: /rpi4cluster/design/
       - title: "하드웨어"
         url: /rpi4cluster/hardware/
+
+# owaf sidebar
+owaf:
+  - title: OWAF
+    url: /owaf/
+  - title: "현재"
+    children:
+      - title: "작성중..."
+        url: /owaf/
 
 # documentation sidebar
 docs:

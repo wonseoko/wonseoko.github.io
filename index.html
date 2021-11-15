@@ -1,4 +1,50 @@
 ---
-layout: home
-author_profile: true
+title: 오원석의 웹사이트에 오셨습니다.
+layout: splash
+author_profile: false
+collection: posts
+entries_layout: grid
+classes: wide
+
+header:
+  overlay_image: https://source.unsplash.com/random
+  overlay_filter: 0.3
+  caption: "Photo credit: [**Unsplash Source**](https://source.unsplash.com)"
+excerpt: >
+  이 사이트는 소프트웨어 개발 기술과 서버 운영에 관한 경험담을 주로 다루고 있습니다.<br /><br />
+  <small>이 사이트에서 사용하는 대부분의 이미지는 <a href="https://unsplash.com">Unsplash</a>에서 
+  제공하는 이미지를 사용하고 있으며, 메인 이미지는 <a href="https://source.unsplash.com/">Unsplash Source</a>의
+  랜덤 서비스를 통해 제공하고 있습니다.</small>
+feature_row:
+  - image_path: /assets/images/owonseok/rpi4cluster.jpg
+    alt: "Raspberry Pi 4"
+    title: "라즈베리파이 4 클러스터"
+    excerpt: "라즈베리파이4와 K3S을 이용해 클러스터를 구성한 경험담을 공유합니다."
+    url: "/rpi4cluster/"
+    btn_class: "btn--primary"
+    btn_label: "더 알아보기"
+
+  - image_path: /assets/images/unsplash/cpp-UjJWhMerJx0.jpg
+    alt: "OWAF"
+    title: "OWAF"
+    excerpt: "제가 만들어서 사용하고 있는 응용프로그램 프레임워크의 구조와 사용법 및 예제등을 설명합니다."
+    url: "/owaf/"
+    btn_class: "btn--primary"
+    btn_label: "더 알아보기"
+
+  - image_path: /assets/images/unsplash/blog-cckf4TsHAuw.jpg
+    alt: "블로그 구축기"
+    title: "블로그 구축기"
+    excerpt: "Github Pages, Jekyll, Jekyll Theme 적용에 대한 포스팅 모음."
+    url: "/categories/#blog"
+    btn_class: "btn--primary"
+    btn_label: "더 알아보기"
 ---
+{% include feature_row %}
+
+<h3>최근 포스트</h3>
+<div class="grid__wrapper">
+{% for post in site.posts limit: 6 %}
+    {% include archive-single.html type="grid" %}
+{% endfor %}
+</div>
