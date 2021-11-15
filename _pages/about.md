@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 header:
   overlay_image: /assets/images/unsplash/hello-WHUDOzd5IYU.jpg
-  overlay_color: "#333"
+  overlay_filter: 0.4
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/WHUDOzd5IYU)"
 excerpt: "C++를 주 언어로 사용하는 멀티 플랫폼을 지원하는 데스크탑 3D 응용프로그램 개발자입니다. GUI 프로그램 개발시 C++ 개발 편의성의 한계로 인해 종종 .NET으로 외도를 자주합니다. "
 layouts_gallery:
