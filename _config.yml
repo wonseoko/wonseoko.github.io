@@ -13,18 +13,21 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 locale                   : "ko-KR"
 title                    : "오원석"
 title_separator          : "-"
-subtitle                 : "소프트웨어 개발 기술과 서버 운영 경험담 나누기" #"A Jekyll theme"
+subtitle                 : #"소프트웨어 개발 기술과 서버 운영 경험담 나누기" #"A Jekyll theme"
 name                     : &name "오원석" # &name is a YAML anchor which can be *referenced later
 description              : &description "이 사이트는 Github Pages와 Minimal-Mistakes Jekyll 테마를 사용해 만들어졌습니다."
 url                      : https://www.owonseok.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "owonseok/owonseok.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : https://source.unsplash.com/random # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 #breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 date_format              : "%Y-%m-%d, %H:%M"
+paginate                 : 5
+paginate_path            : /page:num/
+
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
   disqus:
@@ -46,6 +49,7 @@ comments:
     discussion_term      : # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : # '1' for enabled (default), '0' for disabled
     theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+
 reCaptcha:
   siteKey                : # "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
   secret                 : # "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
@@ -53,9 +57,9 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
-search                   : false # true, false (default)
-search_full_content      : false # true, false (default)
-#search_provider          : algolia # lunr (default), algolia
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia
 #algolia:
 #  application_id         : QB6HVGBSBA # YOUR_APPLICATION_ID
 #  index_name             : minimal_mistakes # YOUR_INDEX_NAME
@@ -190,12 +194,6 @@ kramdown:
 
 # Collections
 collections:
-  rpi4cluster:
-    output: true
-    permalink: /:collection/:path/
-  owaf:
-    output: true
-    permalink: /:collection/:path/
   docs:
     output: true
     permalink: /:collection/:path/
@@ -212,46 +210,6 @@ collections:
 
 # Defaults
 defaults:
-  # _rpi4cluster
-  - scope:
-      path: ""
-      type: rpi4cluster
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      show_date: true
-      comments: true
-      share: true
-      related: true
-      toc: true
-      toc_sticky: true
-      sidebar:
-        nav: "rpi4cluster"      
-      header:
-        overlay_image: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
-        overlay_filter: 0.5
-        caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/rZKdS0wI8Ks)"
-  # _owaf
-  - scope:
-      paht: ""
-      type: owaf
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      show_date: true
-      comments: true
-      share: true
-      related: true
-      toc: true
-      toc_sticky: true
-      sidebar:
-        nav: "owaf"      
-      header:
-        overlay_image: /assets/images/unsplash/cpp-UjJWhMerJx0.jpg
-        overlay_filter: 0.5
-        caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/UjJWhMerJx0)"
   # _posts
   - scope:
       path: ""
@@ -285,33 +243,45 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
-  # # _recipes
-  # - scope:
-  #     path: ""
-  #     type: recipes
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     comments: true
-  # # _pets
-  # - scope:
-  #     path: ""
-  #     type: pets
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     comment: true
-  # # _portfolio
-  # - scope:
-  #     path: ""
-  #     type: portfolio
-  #   values:
-  #     layout: single
-  #     author_profile: false
-  #     share: true
-
+  # rpi4cluster
+  - scope:
+      path: "rpi4cluster"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "rpi4cluster"      
+      header:
+        teaser: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
+        overlay_image: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
+        overlay_filter: 0.4
+        caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/rZKdS0wI8Ks)"
+  # owaf
+  - scope:
+      path: "owaf"
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "owaf"      
+      header:
+        overlay_image: /assets/images/unsplash/cpp-UjJWhMerJx0.jpg
+        overlay_filter: 0.4
+        caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/UjJWhMerJx0)"
 
 # Sass/SCSS
 sass:

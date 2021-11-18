@@ -24,10 +24,12 @@ main:
 #    url: /docs/quick-start-guide/
   - title: "Posts"
     url: /year-archive/
+  - title: "Categories"
+    url: /categories/
   - title: "RPi4Cluster"
     url: /rpi4cluster/
-  - title: "OWAF"
-    url: /owaf/
+  # - title: "OWAF"
+  #   url: /owaf/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Terms &amp; Privacy Policy"
@@ -39,7 +41,7 @@ main:
 rpi4cluster:
   - title: 라즈베리파이 4 클러스터
     url: /rpi4cluster/
-  - title: "현재 구성"
+  - title: "1. 현재 구성"
     children:
       - title: "디자인 목표"
         url: /rpi4cluster/design/
