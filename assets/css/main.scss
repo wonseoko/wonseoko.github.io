@@ -151,7 +151,7 @@ a {
 
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.6em;
+    font-size: 1em;
   }
 
   .page__meta-sep {
@@ -172,7 +172,7 @@ a {
 
     @include breakpoint($medium) {
       display: block;
-      font-size: $type-size-6;
+      font-size: $type-size-5;
     }
   }
 
@@ -184,5 +184,173 @@ a {
     @include breakpoint($medium) {
       max-height: 200px;
     }
+  }
+}
+
+
+//
+// .notice 글자 크기 조정
+//
+@mixin notice($notice-color) {
+  margin: 2em 0 !important;  /* override*/
+  padding: 1em;
+  color: $text-color;
+  font-family: $global-font-family;
+  font-size: $type-size-5 !important;
+  text-indent: initial; /* override*/
+  background-color: mix($background-color, $notice-color, $notice-background-mix);
+  border-radius: $border-radius;
+  box-shadow: 0 1px 1px rgba($notice-color, 0.25);
+
+  h4 {
+    margin-top: 0 !important; /* override*/
+    margin-bottom: 0.75em;
+    line-height: inherit;
+  }
+
+  @at-root .page__content #{&} h4 {
+    /* using at-root to override .page-content h4 font size*/
+    margin-bottom: 0;
+    font-size: 1em;
+  }
+
+  p {
+    &:last-child {
+      margin-bottom: 0 !important; /* override*/
+    }
+  }
+
+  h4 + p {
+    /* remove space above paragraphs that appear directly after notice headline*/
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  a {
+    color: mix(#000, $notice-color, 10%);
+
+    &:hover {
+      color: mix(#000, $notice-color, 50%);
+    }
+  }
+
+  code {
+    background-color: mix($background-color, $notice-color, $code-notice-background-mix)
+  }
+
+	pre code {
+		background-color: inherit;
+	}
+
+  ul {
+    &:last-child {
+      margin-bottom: 0; /* override*/
+    }
+  }
+}
+
+/* Default notice */
+
+.notice {
+  @include notice($light-gray);
+}
+
+/* Primary notice */
+
+.notice--primary {
+  @include notice($primary-color);
+}
+
+/* Info notice */
+
+.notice--info {
+  @include notice($info-color);
+}
+
+/* Warning notice */
+
+.notice--warning {
+  @include notice($warning-color);
+}
+
+/* Success notice */
+
+.notice--success {
+  @include notice($success-color);
+}
+
+/* Danger notice */
+
+.notice--danger {
+  @include notice($danger-color);
+}
+
+/*
+  List view
+  ========================================================================== */
+
+.list__item {
+  .page__meta {
+    margin: 0 0 4px;
+    font-size: 0.8em;
+  }
+}
+
+.archive__item-excerpt {
+  margin-top: 0;
+  font-size: $type-size-5;
+
+  & + p {
+    text-indent: 0;
+  }
+
+  a {
+    position: relative;
+  }
+}
+
+.taxonomy__index {
+  display: grid;
+  grid-column-gap: 2em;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 1.414em 0;
+  padding: 0;
+  font-size: 1em;
+  list-style: none;
+
+  @include breakpoint($large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.25em 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid $border-color;
+  }
+}
+
+/*
+Page meta
+========================================================================== */
+
+.page__meta {
+  margin-top: 2em;
+  color: $muted-text-color;
+  font-family: $sans-serif;
+  font-size: $type-size-5;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
   }
 }

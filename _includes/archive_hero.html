@@ -60,6 +60,6 @@
     <img src="{{ include.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
   {% endif %}
   {% if include.caption %}
-    <span class="page__hero-caption" style="font-size: 1.0em; margin-left: 20px; margin-right: 20px;">{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+    <span class="page__hero-caption" style="font-size: 1.2em; margin-left: 20px; margin-right: 20px;">{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
   {% endif %}
 </div>
