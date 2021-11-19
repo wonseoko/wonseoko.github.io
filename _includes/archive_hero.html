@@ -1,0 +1,65 @@
+{% comment %}
+  만일 DIV 전체가 마우스 클릭시 해당 링크로 이동하도록 하고자 할 경우 다음 구문을 div에 추가하면 됩니다.
+  하지만 이 방법은 사용자가 글 내용을 마우스로 긁거나 할 때도 동작하기 때문에 사용자에게 혼란을 줄 수 있습니다.
+  {% if include.url %}onclick="location.href='{{ include.url | relative_url }}';"{% endif %}
+  
+  사용자 클릭의 편의성을 높이기 위해 요약문을 링크화 할 수도 있습니다.
+  이를 위해 include.tageline, include.excerpt 출력 부분에 <p>다음 <a>태그를 추가하는 방법도 있습니다.
+  하지만, 요약문이 HTML 구문인 경우.. 표시가 올바르게 되지않는 문제가 발생할 수 있습니다.
+  따라서 요약문의 내용을 일반 텍스트화 시켜주는 strip_html 필터를 사용할 수도 있지만, 
+  본문을 자동으로 요약한 경우 미리보기 내용이 이상하게 깨져서 보일 수 있습니다.
+{% endcomment %}
+
+{% capture overlay_img_path %}{{ include.overlay_image | relative_url }}{% endcapture %}
+
+{% if include.overlay_filter contains "gradient" %}
+  {% capture overlay_filter %}{{ include.overlay_filter }}{% endcapture %}
+{% elsif include.overlay_filter contains "rgba" %}
+  {% capture overlay_filter %}{{ include.overlay_filter }}{% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% elsif include.overlay_filter %}
+  {% capture overlay_filter %}rgba(0, 0, 0, {{ include.overlay_filter }}){% endcapture %}
+  {% capture overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}){% endcapture %}
+{% endif %}
+
+{% if include.image_description %}
+  {% assign image_description = include.image_description %}
+{% else %}
+  {% assign image_description = include.title %}
+{% endif %}
+{% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
+
+{% if include.cta_url %}
+  {% assign url = include.cta_url %}
+{% else %}
+  {% assign url = include.url %}
+{% endif %}
+
+<div class="page__hero{% if include.overlay_color or include.overlay_image %}--overlay{% endif %}"
+  style="{% if include.style %}{{ include.style }};{% endif %}{% if include.overlay_color %}background-color: {{ include.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}"  
+>
+  {% if include.overlay_color or include.overlay_image %}
+    <div class="wrapper">      
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        <a href="{{ url | relative_url }}">
+        {% if paginator and site.paginate_show_page_num %}
+          {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
+        {% else %}
+          {{ include.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+        {% endif %}
+        </a>
+      </h1>
+      {% if include.tagline %}
+        <p class="page__lead">{{ include.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</a></p>
+      {% elsif include.show_overlay_excerpt != false and include.excerpt %}
+        <p class="page__lead">{{ include.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</a></p>
+      {% endif %}
+      {% include page__meta.html %}
+    </div>
+  {% else %}
+    <img src="{{ include.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
+  {% endif %}
+  {% if include.caption %}
+    <span class="page__hero-caption" style="font-size: 1.0em; margin-left: 20px; margin-right: 20px;">{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+  {% endif %}
+</div>

@@ -1,0 +1,66 @@
+---
+layout: archive
+---
+{{ content }}
+
+{% for post in paginator.posts limit: site.paginate %}
+  {% if post %}
+    {% assign category = "" %}
+    {% for cat in post.categories limit: 3 %}
+      {% assign cat_name = cat | downcase | replace: " ", "-" %}
+      {% capture cat_url %}/{{ cat_name }}/{% endcapture %}
+      {% assign cat_page = site.pages | where: "url", cat_url %}
+      
+      {% if cat_page != empty %}
+        {% assign cat_lbl = cat_page.title %}        
+      {% else %}
+        {% assign cat_lbl = cat %}  
+        {% capture cat_url %}/categories/#{{ cat_name }}{% endcapture %}
+      {% endif %}
+
+      {% if cat_lbl == nil or cat_lbl == empty %}{% assign cat_lbl = cat %}{% endif %}
+      
+      {% capture cat_link %}[**{{ cat_lbl }}**]({{ cat_url }}){% endcapture %}
+      
+      {% if category != empty %}{% assign category = category | append: ", " %}{% endif %}
+      {% assign category = category | append: cat_link %}
+    {% endfor %}
+    {% if category == empty %}{% assign category = nil %}{% endif %}
+    
+    {% assign filter = page.header.overlay_filter | default: post.header.overlay_filter %}
+    {% assign color = page.header.overlay_color | default: post.header.overlay_color %}
+
+    {% assign image = nil %}
+    {% assign color = nil %}
+    {% if post.header.overlay_image %}      
+      {% capture image %}{{ post.header.overlay_image }}{% endcapture %}
+    {% elsif post.header.image %}      
+      {% capture image %}{{ post.header.image }}{% endcapture %}
+    {% else %}
+      {% unless color %}
+        {% assign min = 96 %}
+        {% assign max = 160 %}
+        {% assign diff = max | minus: min %}
+        {% assign r = "now" | date: "%N" | modulo: diff | plus: min %}
+        {% assign g = "now" | date: "%N" | modulo: diff | plus: min %}
+        {% assign b = "now" | date: "%N" | modulo: diff | plus: min %}
+        {% capture color %}rgb({{ r }},{{ g }},{{ b }}){% endcapture %}
+      {% endunless %}      
+    {% endif %}
+
+    {% include archive_hero.html 
+      url = post.url
+      overlay_image = image
+      overlay_filter = filter
+      overlay_color = color
+      excerpt = post.excerpt
+      title = post.title
+      tagline = post.tagline
+      style = "padding: 1.5em 0; margin-bottom: 0.5em; border-radius: 20px;"
+      caption = category
+    %}
+
+  {% endif %}
+{% endfor %}
+
+{% include paginator.html %}
