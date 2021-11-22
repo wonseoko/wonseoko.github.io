@@ -6,7 +6,7 @@ header:
   #overlay_image: https://source.unsplash.com/1600x900/?christmas
   overlay_filter: 0.4
   caption: "Photo credit: [**Unsplash Source Random**](https://source.unsplash.com)"
-excerpt: 이 사이트는 소프트웨어 개발 기술과 서버 운영에 관한 경험담을 주로 다루고 있습니다.
+excerpt: 이 웹사이트는 소프트웨어 개발 기술과 서버 운영에 관한 경험담을 주로 다루고 있습니다.
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
     image_path: /assets/images/mm-layout-splash.png
@@ -39,9 +39,9 @@ tags:
   - Faas
 ---
 
-이 사이트는 소프트웨어 개발 기술과 서버 운영에 관한 경험담을 주로 다루고 있습니다.
+이 웹사이트는 소프트웨어 개발 기술과 서버 운영에 관한 경험담을 주로 다루고 있습니다.
 
-이 사이트에서 사용하는 대부분의 이미지는 <a href="https://unsplash.com">Unsplash</a>에서 
+이 웹사이트에서 사용하는 대부분의 이미지는 <a href="https://unsplash.com">Unsplash</a>에서 
 제공하는 이미지를 사용하고 있으며, 일부는 <a href="https://source.unsplash.com/">Unsplash Source</a>의 랜덤 및 검색 서비스를 통해 제공하고 있습니다.
 {: .notice--info}
 
@@ -73,7 +73,7 @@ tags:
 ## 서버 구성 및 운영
 개인 홈 서버 운영을 위해 직접, 웹호스팅, VPS등 여러가지 시험을 해보다 맘에 드는 솔루션을 찾지못해 방황하다가.. 최근 라즈베리파이4를 클러스터로 운영하는 것을 보고 따라서 구축을 한 후 너무 맘에 들어서 행복해 하고 있습니다.
 
-그래서 이 사이트를 통해 라즈베리파이4 클러스터 및 쿠버네티스, 도커 스웜에 관한 이야기도 함께 다루고자 합니다. 아마도 CI/CD, DevOps, Faas, Minecraft등등 다룰 이야기가 많을 것 같습니다. ^^
+그래서 이 웹사이트를 통해 라즈베리파이4 클러스터 및 쿠버네티스, 도커 스웜에 관한 이야기도 함께 다루고자 합니다. 아마도 CI/CD, DevOps, Faas, Minecraft등등 다룰 이야기가 많을 것 같습니다. ^^
 
 ## 취미 생활
 초등학생 때 부터 오락실에서 살 정도로 게임을 좋아했습니다. 덕분에 컴퓨터를 좋아하게 되고 고등학교때 C언어 전문학원을 다니고 지금껏 개발자로 살고 있나 봅니다. 그 때는 DOS에서 실행하는 프로그램 만들던 시절이였습니다. 안철수 아저씨가 영웅같이 보이던 시절이었네요;;
@@ -84,5 +84,5 @@ PC게임을 버리고 뒤 늦게 콘솔 게임에 입문을 했습니다. 결혼
 
 조금만 더 크면 함께 좀비도 잡고 피 튀기는 게임들을 즐겨보고 싶습니다. 사실 광고처럼 아이들과 함께 와우가 해보고 싶긴한데 그럴 기회가 올까 궁금하네요 ^^
 
-## 이 사이트는
-Github Pages를 통해 제공되며, Jekyll + minimal-mistakes theme를 사용하여 만들어졌습니다.
+## 이 웹사이트는
+Github Pages를 통해 제공되며, Jekyll + minimal-mistakes theme를 사용하여 만들어졌습니다. 현재 웹사이트 구성에 관한 자세한 내용은 [Minimal Mistakes](/blog/minimal-mistakes/) 포스팅을 확인해 주시기 바랍니다.

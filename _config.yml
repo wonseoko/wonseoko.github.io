@@ -15,7 +15,7 @@ title                    : "오원석"
 title_separator          : "-"
 subtitle                 : #"소프트웨어 개발 기술과 서버 운영 경험담 나누기" #"A Jekyll theme"
 name                     : &name "오원석" # &name is a YAML anchor which can be *referenced later
-description              : &description "이 사이트는 Github Pages와 Minimal-Mistakes Jekyll 테마를 사용해 만들어졌습니다."
+description              : &description "이 웹사이트는 Github Pages와 Minimal-Mistakes Jekyll 테마를 사용해 만들어졌습니다."
 url                      : https://www.owonseok.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "owonseok/owonseok.github.io"
