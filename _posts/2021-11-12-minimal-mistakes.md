@@ -1,7 +1,7 @@
 ---
 title: "Jekyll Theme: minimal-mistakes"
 date: 2021-11-12 12:03:47 +0900
-last_modified_at: 2021-11-22 17:52:20 +0900
+last_modified_at: 2021-11-22 19:42:36 +0900
 header:
   teaser: /assets/images/unsplash/mistake-52jRtc2S_VE.jpg
   overlay_image: /assets/images/unsplash/mistake-52jRtc2S_VE.jpg
@@ -207,7 +207,7 @@ defaults:
 ```
 path를 지정하지 않았기 때문에 docs 컬렉션에 해당하는 모든 페이지를 대상으로 합니다.
 
-그렇다면 posts를 지정하려면 어떻게 해야 할까요?
+그렇다면 특정 category post를 지정하려면 어떻게 해야 할까요?
 ```yaml
 # Defaults
 defaults:
@@ -217,6 +217,17 @@ defaults:
       type: posts
 ```
 네.. 그렇습니다. `"category"` 부분에 여러분이 원하는 카테고리를 지정하시면 됩니다.
+
+그럼 다음과 같이 하면 어떻게 될까요?
+```yaml
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "rpi4cluster"
+```
+
+rpi4cluster 폴대내의 모든 페이지를 인식하고, 만일 하위에 _posts가 있을 경우 그 안에 있는 포스트들을 rpi4cluster 카테고리 포스트로 분류합니다.
 
 이 웹사이트의 경우 현재 `/rpi4cluster/index.md`, `/rpi4cluster/_posts/*.md` 형태로 구성을 시켜 rpi4cluster  카테고리가 생성 되었고, 그에 대한 네비게이션 데이터를 작성하고, defaults를 통해 모든 rpi4cluster 카테고리에 있는 포스트는 자동으로 네비게이션이 표시되도록 구성되어 있습니다. 그리고 `/rpi4cluster/`에 접속하면 `/rpi4cluster/index.md`를 통해 rpi4cluster를 소개하는 인트로 페이지가 표시되도록 하였습니다.
 
