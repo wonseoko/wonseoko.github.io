@@ -229,7 +229,11 @@ defaults:
 
 rpi4cluster 폴대내의 모든 페이지를 인식하고, 만일 하위에 _posts가 있을 경우 그 안에 있는 포스트들을 rpi4cluster 카테고리 포스트로 분류합니다.
 
-이 웹사이트의 경우 현재 `/rpi4cluster/index.md`, `/rpi4cluster/_posts/*.md` 형태로 구성을 시켜 rpi4cluster  카테고리가 생성 되었고, 그에 대한 네비게이션 데이터를 작성하고, defaults를 통해 모든 rpi4cluster 카테고리에 있는 포스트는 자동으로 네비게이션이 표시되도록 구성되어 있습니다. 그리고 `/rpi4cluster/`에 접속하면 `/rpi4cluster/index.md`를 통해 rpi4cluster를 소개하는 인트로 페이지가 표시되도록 하였습니다.
+이 웹사이트의 경우 현재 `/rpi4cluster/index.md`, `/rpi4cluster/_posts/*.md` 형태로 구성을 시켜 rpi4cluster  카테고리가 생성 되었고, 그에 대한 네비게이션 데이터를 작성하고, defaults를 통해 모든 rpi4cluster 카테고리에 있는 포스트 및 페이지는 자동으로 네비게이션이 표시되도록 구성되어 있습니다. 그리고 `/rpi4cluster/`에 접속하면 `/rpi4cluster/index.md`를 통해 rpi4cluster를 소개하는 인트로 페이지가 표시되도록 하였습니다.
+
+결국 인트로페이지와 여러 포스트 및 특정 페이지들를 하나의 네비게이션 메뉴를 통해 한 권의 책 처럼 구성을 할 수 있게 된 것이죠.
+
+후에 또 다른 책을 만들게 된다면 위와 동일한 구조를 통해 여러 권의 책을 만들어 나갈 수도 있을 것입니다.
 
 
 ## 마치며
