@@ -19,6 +19,7 @@ layout: archive
       {% endif %}
 
       {% if cat_lbl == nil or cat_lbl == empty %}{% assign cat_lbl = cat %}{% endif %}
+      {% assign cat_lbl = cat_lbl | capitalize %}
       
       {% capture cat_link %}[**{{ cat_lbl }}**]({{ cat_url }}){% endcapture %}
       

@@ -7,8 +7,6 @@ header:
   overlay_image: /assets/images/unsplash/mistake-52jRtc2S_VE.jpg
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/52jRtc2S_VE)"
-categories:
-  - Blog
 tags:
   - jekyll
   - Jekyll Theme
@@ -22,7 +20,7 @@ gallery_home:
     title: "2021년 11월 22일 현재 홈페이지 화면"
 ---
 
-이 포스트는 현재 이 웹사이트에 적용되어 있는 [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes){: target=_blank} 테마를 어떻게 커스터마이징을 했는지에 대해 이야기 합니다.
+현재 이 웹사이트에 적용되어 있는 [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes){: target=_blank} 테마를 어떻게 커스터마이징을 했는지에 대해 이야기 합니다.
 
 
 ## Minimal Mistakes란?

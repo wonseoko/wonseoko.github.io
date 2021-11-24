@@ -1,18 +1,16 @@
 ---
 title: "Jekyll build시 발생되는 Liquid Template 버그"
+date: 2021-11-13 14:14:18 +0900
+last_modified_at: 2021-11-13 14:14:18 +0900
 header:
   teaser: /assets/images/owonseok/unknown-build-failure-of-github-pages.png
   overlay_image: /assets/images/owonseok/unknown-build-failure-of-github-pages.png
   overlay_filter: 0.5
   caption: "Photo credit: O Wonseok"
-categories:
-  - Blog
 tags:
   - Jekyll
   - Liquid
   - Minimal Mistakes
-date: 2021-11-13 14:14:18 +0900
-last_modified_at: 2021-11-13 14:14:18 +0900
 ---
 
 Jekyll 웹사이트 빌드시 특정 문서내에서 일반 문장이나, 주석으로 처리가 되어 있어도 Liquid 명령어가 포함된 경우 빌드시 참조 에러가 발생.

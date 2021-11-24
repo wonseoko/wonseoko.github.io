@@ -22,18 +22,13 @@ foo:
 main:
 #  - title: "Quick-Start Guide"
 #    url: /docs/quick-start-guide/
+  - auto_categories: true
   - title: "Posts"
     url: /year-archive/
   - title: "Categories"
     url: /categories/
-  - title: "RPi4Cluster"
-    url: /rpi4cluster/
-  # - title: "OWAF"
-  #   url: /owaf/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Terms &amp; Privacy Policy"
-  #   url: /terms/
+  - title: "Tags"
+    url: /tags/
   - title: "About"
     url: /about/
 

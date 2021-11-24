@@ -25,8 +25,18 @@ masthead_title           : # overrides the website title displayed in the masthe
 #breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 date_format              : "%Y-%m-%d, %H:%M"
-paginate                 : 5
-paginate_path            : /page:num/
+#paginate                 : 5
+#paginate_path            : /page:num/
+pagination               :
+  enabled                : true
+  per_page               : 5
+  permalink              : '/page/:num/'
+  sort_field             : 'last_modified_at'
+  sort_reverse           : true
+  category               : 'posts'
+  trail                  : 
+    before               : 2
+    after                : 2
 
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
@@ -298,7 +308,7 @@ timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zo
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -308,7 +318,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed

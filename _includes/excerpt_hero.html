@@ -54,7 +54,7 @@
       {% elsif include.show_overlay_excerpt != false and include.excerpt %}
         <p class="page__lead">{{ include.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</a></p>
       {% endif %}
-      {% include page__meta.html %}
+      {% include hero__meta.html %}
     </div>
   {% else %}
     <img src="{{ include.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
