@@ -273,6 +273,24 @@ defaults:
         overlay_image: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
         overlay_filter: 0.4
         caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/rZKdS0wI8Ks)"
+  # jekyll
+  - scope:
+      path: "jekyll"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      # header:
+      #   teaser: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
+      #   overlay_image: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
+      #   overlay_filter: 0.4
+      #   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/rZKdS0wI8Ks)"
   # owaf
   - scope:
       path: "owaf"

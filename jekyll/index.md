@@ -1,6 +1,5 @@
 ---
 title: "Jekyll"
-permalink: /jekyll/
 layout: category
 taxonomy: "jekyll"
 entries_layout: grid
