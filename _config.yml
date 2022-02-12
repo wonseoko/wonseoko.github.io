@@ -106,7 +106,7 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-SMRMD4DE6Y" # Replace this with your ID, or delete
+    tracking_id          : "G-VVVJS12RRN" # Replace this with your ID, or delete
     anonymize_ip         : # true, false (default)
 
 
@@ -126,9 +126,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/owonseok"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/bluetigero"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/owonseok/"
 
 
 # Site Footer
@@ -140,9 +140,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/owonseok"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/bluetigero"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/owonseok/"
 
 
 # Reading Files
@@ -310,6 +310,26 @@ defaults:
         overlay_image: /assets/images/unsplash/cpp-UjJWhMerJx0.jpg
         overlay_filter: 0.4
         caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/UjJWhMerJx0)"
+  # portfolio
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: false
+      comments: true
+      share: true
+      related: true
+      toc: false
+      toc_sticky: true
+      classes: wide
+      header:
+      #   teaser: /assets/images/unsplash/rpi4-rZKdS0wI8Ks.jpg
+        overlay_image: https://source.unsplash.com/featured/?portfolio
+        overlay_filter: 0.4
+        caption: "Photo credit: [**Unsplash**](https://source.unsplash.com/featured/?portfolio)"
 
 # Sass/SCSS
 sass:
