@@ -1,6 +1,6 @@
 ---
 order: 20
-title: "ezScan2006 (Solutinix)"
+title: "ezScan2006 (Solutionix)"
 excerpt: "3차원 광학 측정기의 데이터 획득, 후 처리, 리버스 엔지리어링 프로그램"
 header:
   teaser: /assets/images/portfolio/ezScan2006.png
